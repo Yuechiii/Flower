@@ -8,13 +8,13 @@
 
 :root {
   --dark-color: #050510;              /* deep navy background */
-  --glow: #00eaff;                    /* electric cyan glow */
-  --circle: #00baff;                  /* bright neon blue */
-  --leaf: #0094ff;                    /* strong mid-blue */
-  --leaf_gradient: #0077ff;           /* darker gradient for depth */
-  --stem: #005fff;                    /* cool blue stem */
-  --petals: #00aaff;                  /* vibrant cyan-blue petals */
-  --petals1: #0077cc;                 /* slightly deeper variant */
+  --glow: #e100ff;                    /* electric cyan glow */
+  --circle: #ee1ac0;                  /* bright neon blue */
+  --leaf: #ff0095;                    /* strong mid-blue */
+  --leaf_gradient: #8f187b;           /* darker gradient for depth */
+  --stem: #ff00bf;                    /* cool blue stem */
+  --petals: #881465;                  /* vibrant cyan-blue petals */
+  --petals1: #cc00bb;                 /* slightly deeper variant */
 }
 
 body {
