@@ -7,14 +7,14 @@
 }
 
 :root {
-  --dark-color: #050510;              /* deep navy background */
-  --glow: #e100ff;                    /* electric cyan glow */
-  --circle: #ee1ac0;                  /* bright neon blue */
-  --leaf: #ff0095;                    /* strong mid-blue */
-  --leaf_gradient: #8f187b;           /* darker gradient for depth */
-  --stem: #ff00bf;                    /* cool blue stem */
-  --petals: #881465;                  /* vibrant cyan-blue petals */
-  --petals1: #cc00bb;                 /* slightly deeper variant */
+  --dark-color: #2F4F2F;        /* deep garden green (background option) */
+  --glow: #E3B21A;              /* golden yellow (flower center glow) */
+  --circle: #F2B6D1;            /* light petal pink */
+  --leaf: #4F7A3C;              /* fresh leaf green */
+  --leaf_gradient: #2F4F2F;     /* deeper green for gradient depth */
+  --stem: #4F7A3C;              /* natural stem green */
+  --petals: #E8A6C4;            /* soft blossom pink */
+  --petals1: #D98DB2;           /* muted rose pink */
 }
 
 body {
@@ -175,7 +175,7 @@ body {
   background-image: linear-gradient(to top, var(--petals), var(--petals1) );
   transform-origin: bottom center;
   opacity: 0.9;
-  box-shadow: inset 0 0 2vmin var(--circle);
+  box-shadow: none;
 }
 .flower__leaf--1 {
   transform: translate(-10%, 1%) rotateY(40deg) rotateX(-50deg);
@@ -566,8 +566,8 @@ body {
   right: 0%;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  filter: blur(1.5vmin);
+  background-color: rgba(0, 0, 0, 0.1);
+  filter: blur(2vmin);
   z-index: 100;
 }
 .flower__g-long {
